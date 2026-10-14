@@ -39,13 +39,13 @@ The dataset consists of DBS stimulation records collected from:
 |----------|------------|
 | side | Brain hemisphere |
 | Contact_pt | Electrode contact point |
-| Voltage_1 | First stimulation voltage |
+| current_1 | First stimulation current |
 | side_effect_1 | First side-effect response |
-| Voltage_2 | Second stimulation voltage |
+| current_2 | Second stimulation current |
 | side_effect_2 | Second side-effect response |
 | side_effect_diff | Absolute difference between side effects |
-| voltage_diff | Voltage difference |
-| voltage_interaction | Product of voltages |
+| current_diff | current difference |
+| current_interaction | Product of currents |
 | side_effect_interaction | Product of side effects |
 
 ### Target Variables
@@ -74,8 +74,8 @@ Additional features:
 
 ```python
 side_effect_diff
-voltage_diff
-voltage_interaction
+current_diff
+current_interaction
 side_effect_interaction
 ```
 
